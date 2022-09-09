@@ -15,3 +15,7 @@ Partimos de que las posibilidades validas para 1 movimiento, que serian 20. (ans
 for num in [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]
 
 La función --> f = 2*ans + 3* (2**num) = ans. Esta variable ans nueva sería la que se usaria para la siguiente funcion con num=2
+
+## Prueba de la Reina
+
+Para resolver esta prueba tenemos que crear una funcion que reciba el numero de reinas (n) y las dimensiones el tablero (nxn)
