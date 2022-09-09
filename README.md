@@ -2,6 +2,8 @@
 
 https://github.com/tereesaalvarez/Reto-Inical.git
 
+Trabajo hecho por Esther Rodríguez, Claudia Lozano, Jose Luis Rodríguez y Teresa Álvarez
+
 ## Prueba del Caballo
 
 Para resolver esta prueba hemos sacado la funcion que halla el resultado de las posibilidades válidas que hay dependiendo de la cantidad de movimientos.
