@@ -18,7 +18,8 @@ La función --> f = 2*ans + 3* (2**num) = ans. Esta variable ans nueva sería la
 
 ## Prueba de la Reina
 
-Para resolver esta prueba tenemos que crear una funcion que reciba el numero de reinas (n) y las dimensiones el tablero (nxn)
+Para resolver esta prueba tenemos que crear una funcion que reciba el numero de reinas (n) y otra que será una matriz de rango n que la llamaremos "tablero".
 Una vez que tengamos creado el tablero, tenemos que crear una funcion mediante la cual, con un bucle for i in range que se repita hasta que sea capaz de colocar las n reinas en el tablero
-consiguiendo que no puedan "comerse" las unas a las otra
-Colocaremos la 1a reina mediante una tupla [fila,columna] y asi ir colocando obligadamente las demas reinas en una casilla
+consiguiendo que no puedan "comerse" entre ellas.
+Colocaremos la 1a reina mediante una tupla [fila,columna] y asi obligando al resto de reina a ccolocarse en casillas en las cuales no puedan ser comidas por otras. La fichas no pueden coincidir en la misma fila (i), columna (j), ni diagonalmente (i1 - j1 =! i2 - j2).
+Una vez colocadas todas las fichas, el programa mediante un bucle for obtendra el número de soluciones tootales.
