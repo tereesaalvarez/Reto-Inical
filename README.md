@@ -19,3 +19,6 @@ La función --> f = 2*ans + 3* (2**num) = ans. Esta variable ans nueva sería la
 ## Prueba de la Reina
 
 Para resolver esta prueba tenemos que crear una funcion que reciba el numero de reinas (n) y las dimensiones el tablero (nxn)
+Una vez que tengamos creado el tablero, tenemos que crear una funcion mediante la cual, con un bucle for i in range que se repita hasta que sea capaz de colocar las n reinas en el tablero
+consiguiendo que no puedan "comerse" las unas a las otra
+Colocaremos la 1a reina mediante una tupla [fila,columna] y asi ir colocando obligadamente las demas reinas en una casilla
